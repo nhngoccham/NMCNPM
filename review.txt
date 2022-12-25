@@ -1,0 +1,30 @@
+* CHƯA ĐĂNG NHẬP:
+
+DONE - Không xem được lịch thi đấu -> nên xem được (dành cho viewer)
+
+DONE - Tương tự cũng không xem được ds Giải đấu và ds Đội bóng
+
+
+* ĐÃ ĐĂNG NHẬP:
+
+DONE - Có trận đấu mà đội tự đấu với chính mình (CLB A - CLB A) -> có nên xử lý điều kiện này không?
+
+DONE - Không phải trưởng đội vẫn có thể chỉnh sửa thông tin thành viên của đội
+
+DONE - Chưa check các thông tin bắt buộc nhập ở phần "Tạo giải đấu" và "Tạo câu lạc bộ" và các phần nhập khác
+
+DONE - Chưa có thông tin áo đấu ở phần CLB (cái này thầy có yêu cầu mà chắc khỏi cũng được) -> chức năng phụ
+
+DONE - Hình to ở phần Giới thiệu CLB bị gán cứng -> có thể bỏ hình rồi chuyển phần Mô tả qua đó
+
+DONE - Không thêm thành viên vào CLB được
+	+ thêm xong không thấy hiện (check db cũng k thấy)
+	+ bấm cập nhật bị văng về trang giới thiệu
+
+DONE - Khi "Nộp hồ sơ" không bấm "Chọn" đội bóng được dù là admin đội
+Re: Do đội không có thành viên nên bị disabled,(thêm warning)
+DONE - Không "Sửa" và "Xóa" vòng đấu, bảng đấu được
+
+DONE - Thiết lập bảng đấu "Thêm" xong chưa cập nhật lên giao diện
+
+DONE - Chưa kiểm tra loại vòng đấu lúc thêm bảng đấu

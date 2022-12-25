@@ -1,0 +1,6 @@
+TO DO:
+- Review lại - Hiển
+- Gắn logo, favicon,...  - Vĩ - Done
+- Lịch thi đấu trang Home (api - Vĩ, ui - Hào) - Done 
+- Quay video demo, hướng dẫn sử dụng - Hiển
+- Trình bày báo cáo - Quỳnh
