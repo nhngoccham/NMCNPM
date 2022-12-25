@@ -1,0 +1,13 @@
+chạy bằng command line (ưu tiên cài node 16.14.2)
+
+chạy client
+
+cd client
+npm install
+npm start
+
+Chạy server (mở cmd khác)
+
+cd server
+npm install
+npm run build
