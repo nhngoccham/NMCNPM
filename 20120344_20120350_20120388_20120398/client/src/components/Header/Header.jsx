@@ -16,12 +16,7 @@ import {
     useDisclosure,
     Image,
 } from "@chakra-ui/react";
-import {
-    HamburgerIcon,
-    CloseIcon,
-    ChevronDownIcon,
-    ChevronRightIcon,
-} from "@chakra-ui/icons";
+import { GrClose } from "react-icons/gr";
 import { useSelector } from "react-redux";
 
 export default function Header() {
@@ -51,9 +46,9 @@ export default function Header() {
                         onClick={onToggle}
                         icon={
                             isOpen ? (
-                                <CloseIcon w={3} h={3} />
+                                <GrClose w={3} h={3} />
                             ) : (
-                                <HamburgerIcon w={5} h={5} />
+                                <GrClose w={5} h={5} />
                             )
                         }
                         variant={"ghost"}
@@ -209,7 +204,7 @@ const DesktopSubNav = ({ label, href, subLabel }) => {
                         color={"pink.400"}
                         w={5}
                         h={5}
-                        as={ChevronRightIcon}
+                        as={GrClose}
                     />
                 </Flex>
             </Stack>
@@ -254,7 +249,7 @@ const MobileNavItem = ({ label, children, href }) => {
                 </Text>
                 {children && (
                     <Icon
-                        as={ChevronDownIcon}
+                        as={GrClose}
                         transition={"all .25s ease-in-out"}
                         transform={isOpen ? "rotate(180deg)" : ""}
                         w={6}

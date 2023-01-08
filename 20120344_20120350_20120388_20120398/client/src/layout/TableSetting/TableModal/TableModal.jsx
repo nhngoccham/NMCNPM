@@ -1,3 +1,4 @@
+import React from 'react';
 import tableAPIs from '@/apis/table';
 import {
     Button,

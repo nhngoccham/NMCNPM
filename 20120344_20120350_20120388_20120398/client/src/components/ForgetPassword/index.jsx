@@ -1,3 +1,4 @@
+import React from 'react';
 import axios from '@/../node_modules/axios/index';
 import authAPIs from '@/apis/auth';
 import {

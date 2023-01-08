@@ -1,3 +1,4 @@
+import React from 'react';
 import { Flex, Heading } from '@chakra-ui/react'
 
 export const CardHeader = (props) => {

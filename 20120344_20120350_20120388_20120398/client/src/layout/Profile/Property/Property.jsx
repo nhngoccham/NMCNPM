@@ -1,3 +1,4 @@
+import React from 'react';
 import { Box, Flex, useColorModeValue } from '@chakra-ui/react'
 
 export const Property = (props) => {
